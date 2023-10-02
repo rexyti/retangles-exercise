@@ -1,0 +1,8 @@
+rootProject.name = 'figures'
+
+include ':infraestructure'
+project(':infraestructure').projectDir = file('./infraestructure')
+
+include ':domain'
+project(':domain').projectDir = file('./domain')
+
